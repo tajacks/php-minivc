@@ -12,6 +12,7 @@
         <nav>
             <p>
                 <a href="/">About</a>
+                <a href="/persons">Database Example</a>
             </p>
         </nav>
     </header>

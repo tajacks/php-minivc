@@ -1,3 +1,5 @@
+Header add Content-Security-Policy "default-src 'self';"
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 

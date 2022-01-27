@@ -1,6 +1,6 @@
 <footer>
     <p>
-        Sample Foot Text
+        Sample Footer Text
     </p>
 </footer>
 </div>
