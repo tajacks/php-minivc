@@ -5,7 +5,7 @@
         protected $model;
 
         public function model($model) {
-            require_once(APP_ROOT . '/models/' . $model . '.php');
+            require_once(APP_ROOT . '/model/' . $model . '.php');
             return new $model();
         }
 
