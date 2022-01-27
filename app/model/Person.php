@@ -1,16 +1,16 @@
 <?php
 
-    class Post {
+    class Person {
         private $db;
 
+        // Create a new Database on Construction
         public function __construct() {
             $this->db = new Database();
         }
 
         public function getPeople() {
+            $this->db->query("SELECT * FROM Persons");
 
-            $this->db->query("SELECT * FROM persons");
-
-            return $this->db->resultSet(); // return the result from the above query to wherever it is called from the controller.
+            return $this->db->resultAssoc(); 
         }
     }
